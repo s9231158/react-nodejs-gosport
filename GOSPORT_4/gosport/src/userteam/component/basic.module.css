@@ -1,0 +1,99 @@
+
+/* 會員功能 內容 */
+.basic {
+    height: 80%;
+    width: 100%;
+    padding: 40px 40px 40px 300px;
+    box-sizing: border-box;
+    overflow: scroll;
+    position: absolute;
+    top: 20%;
+}
+/* 編輯 按鈕 */
+.basic>a {
+    position: sticky;
+    top: 0;
+    border: 1px solid #AAAAAA;
+    color: #AAAAAA;
+    background-color: white;
+    border-radius: 40px;
+    width:100px;
+    height: 60px;
+    font-family: 'Noto Sans TC';
+    font-size: 1.2rem;
+    font-weight: 400;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* 大標題 */
+.mBigTitle {
+    font-family: 'Noto Sans TC';
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(56, 56, 56);
+    margin-bottom: 30px;
+}
+/* 標題 */
+.mTitle {
+    font-family: 'Noto Sans TC';
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+    margin-bottom: 5px;
+}
+/* 區域 */
+.mR1{
+    position:absolute;
+    left:400px;
+    top:118px;
+}
+/* 區域內容 */
+.mR2{
+    position:absolute;
+    left:400px;
+    top:152px;
+}
+/* 時段 */
+.mR3{
+    position:absolute;
+    left:400px;
+    top:213px;
+}
+/* 時段內容 */
+.mR4{
+    position:absolute;
+    left:400px;
+    top:244px;
+}
+/* 內容 */
+.mText {
+    font-family: 'Noto Sans TC';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    margin-bottom: 25px;
+}
+/* 照片 容器 */
+.mBimgBox{
+    /* background-color: aqua; */
+    overflow: hidden;
+    height: 170px;
+    width: 170px;
+    margin-top: 40px;
+    margin-left: 40px;
+    clip-path: circle(50%);
+    display: flex;
+    justify-content: center;
+}
+/* 照片 */
+.mBimg {
+    height: 100%;
+    position: relative;
+    /* left:-50%; */
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+}

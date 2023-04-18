@@ -1,0 +1,356 @@
+body {
+    overflow: scroll;
+}
+
+.contentcontent {
+ height: 1000px;
+ display: block;
+}
+
+.searchbox {
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+    display: block;
+    width: 1350px;
+    height: 450px;
+    /* border: #777 1px solid; */
+    position: relative;
+    margin: 220px auto 1% auto; 
+}
+
+.active_type {
+    height: 100px;
+    display: flex;
+}
+
+/* .active_subCtrl {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: gray;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.active_act {
+
+    background-color: white;
+    border-bottom: 3px solid rgb(230, 70, 55);
+    color: #000;
+} */
+
+.active_title div,
+.active_type div {
+    color: gray;
+    background-color: rgb(233, 233, 233);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .tablink {
+    color: black;
+    float: left;
+    outline: none;
+} */
+
+/* 
+.tablink:hover {
+    background-color: #777;
+}
+
+.tabcontent {
+    color: black;
+    padding: 50px;
+    text-align: center;
+} */
+
+.type1 {
+    font-size: 1.2rem;
+    color: #aaaaaa;
+    margin-top: 20px;
+}
+
+.ballimg {
+    width: 80px;
+}
+
+.teamteamimgimg {
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.img {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.ballselect {
+    font-size: 1.5rem;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.teamselect {
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.labeltitle {
+    font-size: 1.2rem;
+    color: #888888;
+}
+
+.inputcontent {
+    font-size: 1.5rem;
+}
+
+.type {
+    width: 200px;
+    left: 50px;
+    display: block;
+}
+
+.data {
+    float: left;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.time>div {
+    margin-left: 50px;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.place>div {
+    margin-left: 50px;
+}
+
+.buttoninput {
+    color: rgba(255, 255, 255, 0.838);
+    background-color: red;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.addarticle {
+    position: absolute;
+    left: 190px;
+    top: 470px;
+}
+
+.article {
+    border-radius: 50px;
+    border: 1px red solid;
+    background-color: white;
+    color: red;
+    padding: 10px;
+    font-size: 24px;
+    width: 150px;
+}
+
+.addrelated {
+    position: absolute;
+    left: 190px;
+    top: 550px;
+}
+
+.related {
+    border-radius: 50px;
+    border: 1px #888 solid;
+    background-color: white;
+    color: #888;
+    padding: 10px;
+    font-size: 16px;
+    width: 75px;
+}
+
+.searchcontent {
+    position: absolute;
+    left: 950px;
+    border: 0px;
+    color: #888;
+}
+
+.articlelist {
+    position: absolute;
+    top: 595px;
+}
+
+.articlecontent {
+    width: 1060px;
+    height: 450px;
+    margin-left: 190px;
+    margin-top: 20px;
+    overflow: scroll;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+    padding: auto 10px;
+}
+
+.articlecontent_key {
+    border: 0.5px #999 solid;
+    margin-top: 20px;
+}
+
+.areacity {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.countyarea {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.searchtext {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.textsearch {
+    width: 600px;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.buttoninput_1 {
+    color: rgba(255, 255, 255, 0.838);
+    background-color: red;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+/* .Article {
+    display: block;
+    position: absolute;
+    left: 190px;
+    top: 600px;
+} */
+
+.msgh {
+    margin-top: 10px;
+}
+
+.msghh {
+    margin-top: -20px;
+    color: #999;
+}
+
+.msghhh {
+    width: 40px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f5f5f5;
+    margin-left: 40px;
+}
+
+.magmm {
+    margin-top: 30px;
+}
+
+.msgq {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.msgqq {
+    margin-left: 70px;
+    margin-top: -20px;
+    color: #999;
+}
+
+.magqqq {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* .articlecontent_nn {
+    margin-left: 190px;
+} */
+
+.timespan {
+    font-size: 20px;
+    /* text-decoration: underline; */
+}
+
+.imgimgimg {
+    overflow: hidden;
+    width: 325px;
+    height: 145px;
+}
+
+.zerodiv {
+    position: absolute;
+    top: 1000px;
+}
+
+.rentdiv {
+    position: absolute;
+    top:1050px;
+}
+
+.teamteaminfo {
+    position: absolute;
+    top: 1050px;
+    left: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

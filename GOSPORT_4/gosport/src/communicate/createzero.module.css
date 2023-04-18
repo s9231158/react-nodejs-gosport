@@ -1,0 +1,163 @@
+.addcontent {
+    display: block;
+    border: 0.5px #999 solid;
+    width: 1060px;
+    height: 1170px;
+    margin-left: 212px;
+    margin-top: 200px;
+    color: rgba(56, 56, 56, 1);
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+#add-place {
+    width: 345px;
+    height: 55px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgba(245, 245, 245, 1);
+    border: 0px;
+    color: rgba(56, 56, 56, 1);
+}
+
+.addarea {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.addArea {
+    margin-left: 50px;
+}
+
+/* .option {
+    
+} */
+
+select,
+#add-date,
+#add-datetime {
+    /* border: none; */
+    outline: none;
+    border-bottom: black 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+#add-address {
+    width: 345px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 245, 1);
+    border: 0px;
+    font-size: 20px;
+}
+
+.addaddress,
+.adddate,
+.adddatetime,
+.addlevel,
+.addperson,
+.addfee,
+.adddescribe,
+.button {
+    margin-top: 30px;
+}
+
+.cancel,
+.store {
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.reset {
+    float: right;
+    margin-right: 500px;
+}
+
+.decrease,
+.increase {
+    border-radius: 90px;
+    font-size: 10px;
+    color: #999;
+    /* background-color: rgb(170, 170, 170); */
+    border: #888 0.3px solid;
+}
+
+#value {
+    border-bottom: 1px black solid;
+}
+
+#add-addfee {
+    width: 177px;
+    height: 55px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+#add-describe {
+    width: 691px;
+    height: 105px;
+    border-radius: 20px;
+}
+
+.contenttitle {
+    font-size: 1.2rem;
+    color: rgba(170, 170, 170, 1);
+}
+
+.contentdescribe,
+.option {
+    font-size: 1.5rem;
+}
+
+.contentdescribe1 {
+    font-size: 1.5rem;
+    width: 500px;
+}
+
+.contentdescribe_text {
+    width: 700px;
+    height: 100px;
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+.cancel {
+    border: 0.5px rgba(230, 70, 55, 1) solid;
+    color: rgba(230, 70, 55, 1);
+    background-color: white;
+    font-size: 32px;
+    position: absolute;
+    left: 350px;
+    top: 1070px;
+}
+
+.store {
+    border: 0.5px rgba(230, 70, 55, 1) solid;
+    color: white;
+    background-color: rgba(230, 70, 55, 1);
+    font-size: 32px;
+    position: absolute;
+    right: 350px;
+    top: 1070px;
+}
+
+.addcontent input {
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    border: 0px;
+    text-align: center;
+}
+
+/* input {
+    background-color: rgb(230, 230, 230);
+} */

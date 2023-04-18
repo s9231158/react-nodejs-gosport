@@ -1,0 +1,171 @@
+
+
+.activitydetail,
+.message {
+    display: block;
+}
+
+.activityinfo {
+    width: 1060px;
+    height: 770px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+}
+
+.activityInfo {
+    display: block;
+    margin-top: 20px;
+}
+
+.relation {
+    position: absolute;
+    left: 300px;
+    top: 327px;
+    border: #383838 0.5px solid;
+    border-radius: 50px;
+    width: 40px;
+    height: 30px;
+    color: #383838;
+}
+
+.span {
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.dateinput,
+.timeinput,
+.placeinput,
+.describeinput,
+.feeinput,
+.memberinput {
+    border: none;
+    font-size: 20px;
+}
+
+.time {
+    position: absolute;
+    left: 250px;
+    top: 380px;
+}
+
+.date {
+    position: absolute;
+    top: 380px;
+    left: 20px;
+}
+
+.place {
+    position: absolute;
+    left: 20px;
+    top: 450px;
+}
+
+.describe {
+    position: absolute;
+    left: 20px;
+    top: 520px;
+}
+
+.fee {
+    position: absolute;
+    left: 20px;
+    top: 580px
+}
+
+.member {
+    position: absolute;
+    left: 20px;
+    top: 680px
+}
+
+.message {
+    position: absolute;
+    left: 190px;
+    top: 940px
+}
+
+.msg {
+    width: 1060px;
+    height: 110px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+}
+
+.name {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+.img {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.level {
+    width: 50px;
+    height: 25px;
+    background-color: #f5f5f5;
+    color: #383838;
+    border: 1px #aaaaaa solid;
+    border-radius: 50px;
+}
+
+.msgtext {
+    position: absolute;
+    left: 250px;
+    top: 20px;
+}
+
+.Msgtext {
+    text-align: left;
+    background-color: white;
+    border: 0px;
+    /* box-shadow: 0px 4px 18px rgba(180, 180, 180, 0.25); */
+    width: 455px;
+    /* height: 60px; */
+}
+
+.msgtime {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.board {
+    width: 1060px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+    margin-top: 20px;
+}
+
+.msgmsgmsg {
+    font-size: 30px;
+}
+
+.msgboard {
+    width: 700px;
+    height: 70px;
+}
+
+.msboard {
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.msgmsgtime {
+    margin-left: 880px;
+    margin-top: -70px;
+}
+
+.teamteamimg {
+    width: 50px;
+    margin-left: 10px;
+}

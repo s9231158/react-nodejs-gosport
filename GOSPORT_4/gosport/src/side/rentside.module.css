@@ -1,0 +1,351 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+.search {
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+    margin: 50px 190px ;padding: 0px 10px;
+    width: 1060px;
+    padding: 0;
+    height: 191px;
+}
+
+.p{
+    margin-bottom: 0px;
+    /* font-family: 'Poppins'; */
+}
+.p2{
+    color: #AAAAAA;
+}
+.fontsize1{
+    font-size: 24px;
+    color: #383838;
+    font-family: 'Noto Sans TC';
+    color: rgb(30, 30, 30);
+}
+.fontsize2{
+    font-size: 24px;
+    color: #383838;
+    font-family: 'Noto Sans TC';
+    color: rgb(30, 30, 30);
+}
+.fontsize3{
+    font-size: 16px;
+    color: #AAAAAA;
+    font-family: 'Noto Sans TC';
+}
+.fontsize4{
+    font-size: 15px;
+    color: #383838;
+    font-family: 'Noto Sans TC';
+    color: rgb(30, 30, 30);
+}
+
+#inputsearch {
+    appearance: none;
+    border: 0;
+    border-radius: 50px;
+    background-color: #E64637;
+    color: #ffffff;
+}
+
+/* select {
+    appearance: none;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    outline: none
+} */
+
+.aa {
+    position: relative;
+    min-width: 107px;
+    min-height: 59px;
+}
+.aa::before {
+    content: '';
+    position: absolute;
+    right: 8%;
+    bottom: 15px;
+    background-color: black;
+    z-index: 1;
+    width: 80%;
+    height: 2px;
+}
+
+.aa1 {
+    position: relative;
+    width: 200px;
+    min-width: 50px;
+    min-height: 65px;
+    /* padding-top: 24px;
+    padding-left: 0px;
+    padding-right: 0px; */
+    /* padding: 24px 0px 12px 0px; */
+    padding: 0px 20px 0px;
+}
+.aa1 select{
+    font-size: 20px;
+    color: #383838;
+    font-family: 'Noto Sans TC';
+    color: rgb(30, 30, 30);
+}
+
+.aa1::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    background-color: black;
+    z-index: 1;
+    width: 85%;
+    height: 2px;
+}
+
+.aa2 {
+    position: relative;
+    padding: 20px 0px 0px 0px ;
+}
+
+.aa2::before {
+    content: '日期';
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: #AAAAAA;
+    z-index: 1;
+    font-size: 16px;
+}
+.aa2::after{
+    content: '';
+    position: absolute;
+    bottom: 9px;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 2px;
+}
+#date1 {
+    border-width: 0px;
+}
+#date2{
+    border-width: 0px;
+}
+
+.aa3 {
+    position: relative;
+}
+
+.aa3::after {
+    content: '開始時間';
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: #aaaaaa;
+    font-size: 16px;
+    /* z-index: 1; */
+    /* 要有position: relative;之類的屬性才能使用z-index*/
+}
+.aa3>img{
+    max-width: 25px; 
+    max-height: 25px;
+}
+
+.aa4 {
+    position: relative;
+    padding: 0;
+}
+
+.aa4::after {
+    content: '結束時間';
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    color: #aaaaaa;
+    /* z-index: 1; */
+}
+
+::placeholder {
+    color: #AAAAAA;
+    text-align: center;
+}
+
+#search {
+    border-radius: 30px;
+    border-style: none;
+    background-color: #f5f5f5;
+    height: 40px;
+    padding: 20px;
+
+}
+
+.buttom1{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    color: #AAAAAA;
+    border: 1px solid #aaaaaa;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.typecol{
+    color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 20px;
+}
+.typecolimg{
+    margin-left: 15px;
+}
+.lable1{
+    min-height: 30px;
+    min-width: 93px;
+    max-height: 30px;
+    max-width: 93px;
+}
+.lable2
+{
+    min-height: 30px;
+    min-width: 133px;
+    max-height: 30px;
+    max-width: 133px;
+}
+.Adddiv{
+    box-shadow: 0px 0px 40px rgba(170, 170, 170, 0.7);
+    width: 1060;
+    height: 145;
+}
+.buttom2{
+    background-color: transparent;
+    border: none;
+    margin: 0px 10px;
+}
+.sidediv{
+    width: 100px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidespan{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidespan2{
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    margin: 30px 190px 20px 190px;
+    max-height: 1055px;
+
+}
+.div2{
+    /* background-color: aqua;height: 145px; */
+    padding: 0px;
+    height: 100%;
+}
+.div3{
+    padding: 10px 40px;
+    height: 100%;
+}
+.div4{
+    margin-bottom: 15px;
+}
+.div5{
+    margin-top: 50px;
+}
+.div6{
+    margin: 30px 0px 0px 0px ;
+}
+.div7{
+    margin-left: auto;
+    margin-right: auto;
+}
+.div8{
+    background-color:transparent;
+    margin: 50px 190px 30px 190px ;padding: 0px 10px;
+    width: 1060px;
+    padding: 0;
+}
+.div9{
+    text-align: center;
+    padding: 23px;
+}
+.div10{
+    width: 104px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid #e64637;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #E64637;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.div12{
+    width: 104px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: #e64637;
+    border: 1px solid #e64637;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.div10:hover{
+    color: white;
+    background-color: #E64637;
+}
+/* a:hover{
+    color: red;
+    text-decoration: none;
+} */
+.div11{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.div13{
+    margin-bottom: 20px;
+}
+.div14{
+    position: relative;
+    appearance: none;
+    border: 0;
+    width: 91px;
+    height: 50px;
+    font-size: 20px;
+    color: #AAAAAA;
+    background-color: transparent;
+}
+.div15{
+    position: absolute;
+    top: 12px;
+    right: 0px;
+    width: 25px;
+    height: 27px;
+}
+.div16{
+    position: relative;
+    align-items: center;
+}
